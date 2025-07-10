@@ -1,7 +1,7 @@
 // subrata-utils.js
 (function () {
   console.log(
-    "%c👨‍💻 SubrataUtils v1.0.0 | https://subratap.gitlab.io/profile",
+    "%c👨‍💻 UtilsLib v1.0.0 | https://subratap.gitlab.io/profile",
     "background: #222; color: #ffc107; padding: 8px; font-size: 14px;"
   );
 
