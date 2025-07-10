@@ -22,6 +22,10 @@
             <p style="margin-top: 20px; font-size: 14px; color: #777;">
               💡 Tip: Add <code>?author</code> to the URL of any project made by me to see this authorship proof.
             </p>
+            <button onclick="(function(){ window.location.href = window.location.href.replace(/[?&]author(=[^&]*)?/, '').replace(/([?&])$/, ''); })()" 
+              style="margin-top: 30px; padding: 10px 20px; background-color: #ffc107; color: #333; border: none; border-radius: 5px; cursor: pointer; font-weight: bold;">
+              🔙 View Original Page
+            </button>
           </div>
         </div>
       `;
